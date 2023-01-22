@@ -9,8 +9,8 @@ import (
 	"emperror.dev/errors"
 	"github.com/google/uuid"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/environment"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
 )
 
 type PowerAction string

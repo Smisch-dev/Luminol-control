@@ -17,9 +17,9 @@ import (
 	"github.com/docker/docker/api/types/mount"
 	"github.com/docker/docker/client"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/environment"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/system"
 )
 
 var ErrNotAttached = errors.Sentinel("not attached to instance")

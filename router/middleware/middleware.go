@@ -11,9 +11,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/remote"
-	"github.com/Smisch-dev/Luminol-control/server"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/remote"
+	"github.com/pterodactyl/wings/server"
 )
 
 // AttachRequestID attaches a unique ID to the incoming HTTP request so that any

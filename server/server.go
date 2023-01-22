@@ -13,12 +13,12 @@ import (
 	"github.com/creasty/defaults"
 	"github.com/goccy/go-json"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/environment"
-	"github.com/Smisch-dev/Luminol-control/events"
-	"github.com/Smisch-dev/Luminol-control/remote"
-	"github.com/Smisch-dev/Luminol-control/server/filesystem"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/events"
+	"github.com/pterodactyl/wings/remote"
+	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/pterodactyl/wings/system"
 )
 
 // Server is the high level definition for a server instance being controlled

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/Smisch-dev/Luminol-control/internal/models"
+	"github.com/pterodactyl/wings/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"

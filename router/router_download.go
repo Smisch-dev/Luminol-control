@@ -9,9 +9,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/Smisch-dev/Luminol-control/router/middleware"
-	"github.com/Smisch-dev/Luminol-control/router/tokens"
-	"github.com/Smisch-dev/Luminol-control/server/backup"
+	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/pterodactyl/wings/router/tokens"
+	"github.com/pterodactyl/wings/server/backup"
 )
 
 // Handle a download request for a server backup.

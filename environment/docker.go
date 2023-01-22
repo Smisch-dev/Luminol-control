@@ -11,7 +11,7 @@ import (
 	"github.com/docker/docker/api/types/network"
 	"github.com/docker/docker/client"
 
-	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/pterodactyl/wings/config"
 )
 
 var (

@@ -1,4 +1,4 @@
-module github.com/Smisch-dev/Luminol-control
+module github.com/pterodactyl/wings
 
 go 1.18
 

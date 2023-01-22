@@ -10,14 +10,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Smisch-dev/Luminol-control/internal/models"
+	"github.com/pterodactyl/wings/internal/models"
 
 	"emperror.dev/errors"
 	"github.com/apex/log"
 	"github.com/cenkalti/backoff/v4"
 	"github.com/goccy/go-json"
 
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/system"
 )
 
 type Client interface {

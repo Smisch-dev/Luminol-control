@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Smisch-dev/Luminol-control/internal/progress"
+	"github.com/pterodactyl/wings/internal/progress"
 )
 
 // PushArchiveToTarget POSTs the archive to the target node and returns the

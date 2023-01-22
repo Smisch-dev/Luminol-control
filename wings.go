@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Smisch-dev/Luminol-control/cmd"
+	"github.com/pterodactyl/wings/cmd"
 )
 
 func main() {

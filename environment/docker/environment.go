@@ -11,10 +11,10 @@ import (
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 
-	"github.com/Smisch-dev/Luminol-control/environment"
-	"github.com/Smisch-dev/Luminol-control/events"
-	"github.com/Smisch-dev/Luminol-control/remote"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/events"
+	"github.com/pterodactyl/wings/remote"
+	"github.com/pterodactyl/wings/system"
 )
 
 type Metadata struct {

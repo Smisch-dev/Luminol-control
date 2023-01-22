@@ -13,7 +13,7 @@ import (
 
 	. "github.com/franela/goblin"
 
-	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/pterodactyl/wings/config"
 )
 
 func NewFs() (*Filesystem, *rootFs) {

@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/sftp"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/server"
-	"github.com/Smisch-dev/Luminol-control/server/filesystem"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/server"
+	"github.com/pterodactyl/wings/server/filesystem"
 )
 
 const (

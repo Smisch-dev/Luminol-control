@@ -19,8 +19,8 @@ import (
 	"github.com/karrick/godirwalk"
 	ignore "github.com/sabhiram/go-gitignore"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/system"
 )
 
 type Filesystem struct {

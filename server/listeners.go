@@ -9,11 +9,11 @@ import (
 
 	"github.com/apex/log"
 
-	"github.com/Smisch-dev/Luminol-control/events"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/events"
+	"github.com/pterodactyl/wings/system"
 
-	"github.com/Smisch-dev/Luminol-control/environment"
-	"github.com/Smisch-dev/Luminol-control/remote"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/remote"
 )
 
 var dockerEvents = []string{

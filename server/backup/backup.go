@@ -14,8 +14,8 @@ import (
 	"github.com/mholt/archiver/v4"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/remote"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/remote"
 )
 
 var format = archiver.CompressedArchive{

@@ -22,10 +22,10 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/spf13/cobra"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/environment"
-	"github.com/Smisch-dev/Luminol-control/loggers/cli"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/loggers/cli"
+	"github.com/pterodactyl/wings/system"
 )
 
 const (

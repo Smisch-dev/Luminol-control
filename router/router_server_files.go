@@ -18,13 +18,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/internal/models"
-	"github.com/Smisch-dev/Luminol-control/router/downloader"
-	"github.com/Smisch-dev/Luminol-control/router/middleware"
-	"github.com/Smisch-dev/Luminol-control/router/tokens"
-	"github.com/Smisch-dev/Luminol-control/server"
-	"github.com/Smisch-dev/Luminol-control/server/filesystem"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/internal/models"
+	"github.com/pterodactyl/wings/router/downloader"
+	"github.com/pterodactyl/wings/router/middleware"
+	"github.com/pterodactyl/wings/router/tokens"
+	"github.com/pterodactyl/wings/server"
+	"github.com/pterodactyl/wings/server/filesystem"
 )
 
 // getServerFileContents returns the contents of a file on the server.

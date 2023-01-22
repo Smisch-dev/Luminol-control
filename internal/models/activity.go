@@ -5,7 +5,7 @@ import (
 
 	"gorm.io/gorm"
 
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/system"
 )
 
 type Event string

@@ -26,16 +26,16 @@ import (
 	"golang.org/x/crypto/acme"
 	"golang.org/x/crypto/acme/autocert"
 
-	"github.com/Smisch-dev/Luminol-control/config"
-	"github.com/Smisch-dev/Luminol-control/environment"
-	"github.com/Smisch-dev/Luminol-control/internal/cron"
-	"github.com/Smisch-dev/Luminol-control/internal/database"
-	"github.com/Smisch-dev/Luminol-control/loggers/cli"
-	"github.com/Smisch-dev/Luminol-control/remote"
-	"github.com/Smisch-dev/Luminol-control/router"
-	"github.com/Smisch-dev/Luminol-control/server"
-	"github.com/Smisch-dev/Luminol-control/sftp"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/config"
+	"github.com/pterodactyl/wings/environment"
+	"github.com/pterodactyl/wings/internal/cron"
+	"github.com/pterodactyl/wings/internal/database"
+	"github.com/pterodactyl/wings/loggers/cli"
+	"github.com/pterodactyl/wings/remote"
+	"github.com/pterodactyl/wings/router"
+	"github.com/pterodactyl/wings/server"
+	"github.com/pterodactyl/wings/sftp"
+	"github.com/pterodactyl/wings/system"
 )
 
 var (
@@ -431,8 +431,8 @@ __ [blue][bold]Pterodactyl[reset] _____/___/_______ _______ ______
 Copyright © 2018 - %d Dane Everitt & Contributors
 
 Website:  https://pterodactyl.io
- Source:  https://github.com/Smisch-dev/Luminol-control
-License:  https://github.com/Smisch-dev/Luminol-control/blob/develop/LICENSE
+ Source:  https://github.com/pterodactyl/wings
+License:  https://github.com/pterodactyl/wings/blob/develop/LICENSE
 
 This software is made available under the terms of the MIT license.
 The above copyright notice and this permission notice shall be included

@@ -8,10 +8,10 @@ import (
 	"emperror.dev/errors"
 	"github.com/goccy/go-json"
 
-	"github.com/Smisch-dev/Luminol-control/events"
-	"github.com/Smisch-dev/Luminol-control/system"
+	"github.com/pterodactyl/wings/events"
+	"github.com/pterodactyl/wings/system"
 
-	"github.com/Smisch-dev/Luminol-control/server"
+	"github.com/pterodactyl/wings/server"
 )
 
 // RegisterListenerEvents will setup the server event listeners and expiration
