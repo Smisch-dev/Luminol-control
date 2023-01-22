@@ -1,5 +1,5 @@
 package sftp
-
+//tests
 import (
 	"emperror.dev/errors"
 	"github.com/apex/log"
