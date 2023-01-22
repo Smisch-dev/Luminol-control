@@ -9,9 +9,9 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/server/backup"
+	"github.com/Smisch-dev/Luminol-control/router/middleware"
+	"github.com/Smisch-dev/Luminol-control/server"
+	"github.com/Smisch-dev/Luminol-control/server/backup"
 )
 
 // postServerBackup performs a backup against a given server instance using the

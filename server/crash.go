@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
+	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/Smisch-dev/Luminol-control/environment"
 )
 
 type CrashHandler struct {

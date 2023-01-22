@@ -5,7 +5,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/pterodactyl/wings/events"
+	"github.com/Smisch-dev/Luminol-control/events"
 )
 
 const (

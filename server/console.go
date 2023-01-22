@@ -7,8 +7,8 @@ import (
 
 	"github.com/mitchellh/colorstring"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/system"
+	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/Smisch-dev/Luminol-control/system"
 )
 
 // appName is a local cache variable to avoid having to make expensive copies of

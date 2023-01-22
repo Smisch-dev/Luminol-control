@@ -14,9 +14,9 @@ import (
 	"github.com/juju/ratelimit"
 	"github.com/mholt/archiver/v4"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/Smisch-dev/Luminol-control/remote"
+	"github.com/Smisch-dev/Luminol-control/server/filesystem"
 )
 
 type S3Backup struct {

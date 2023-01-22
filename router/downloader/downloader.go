@@ -17,7 +17,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/google/uuid"
 
-	"github.com/pterodactyl/wings/server"
+	"github.com/Smisch-dev/Luminol-control/server"
 )
 
 var client = &http.Client{
@@ -157,7 +157,7 @@ func (dl *Download) Execute() error {
 		return errors.WrapIf(err, "downloader: failed to create request")
 	}
 
-	req.Header.Set("User-Agent", "Pterodactyl Panel (https://pterodactyl.io)")
+	req.Header.Set("User-Agent", "Luminol Panel (https://smisch.sk/projects/luminol)")
 	res, err := client.Do(req)
 	if err != nil {
 		return ErrDownloadFailed

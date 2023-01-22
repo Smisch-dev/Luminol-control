@@ -5,10 +5,10 @@ import (
 	"github.com/apex/log"
 	"github.com/gin-gonic/gin"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/router/middleware"
-	wserver "github.com/pterodactyl/wings/server"
+	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/Smisch-dev/Luminol-control/remote"
+	"github.com/Smisch-dev/Luminol-control/router/middleware"
+	wserver "github.com/Smisch-dev/Luminol-control/server"
 )
 
 // Configure configures the routing infrastructure for this daemon instance.

@@ -6,8 +6,8 @@ import (
 	"emperror.dev/errors"
 	"github.com/asaskevich/govalidator"
 
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server"
+	"github.com/Smisch-dev/Luminol-control/remote"
+	"github.com/Smisch-dev/Luminol-control/server"
 )
 
 type Installer struct {

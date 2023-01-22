@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/pterodactyl/wings/events"
-	"github.com/pterodactyl/wings/system"
+	"github.com/Smisch-dev/Luminol-control/events"
+	"github.com/Smisch-dev/Luminol-control/system"
 )
 
 // Defines all the possible output events for a server.

@@ -8,11 +8,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/server"
-	"github.com/pterodactyl/wings/server/installer"
-	"github.com/pterodactyl/wings/server/transfer"
+	"github.com/Smisch-dev/Luminol-control/environment"
+	"github.com/Smisch-dev/Luminol-control/router/middleware"
+	"github.com/Smisch-dev/Luminol-control/server"
+	"github.com/Smisch-dev/Luminol-control/server/installer"
+	"github.com/Smisch-dev/Luminol-control/server/transfer"
 )
 
 // Data passed over to initiate a server transfer.

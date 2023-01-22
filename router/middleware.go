@@ -3,8 +3,8 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/pterodactyl/wings/router/middleware"
-	"github.com/pterodactyl/wings/server"
+	"github.com/Smisch-dev/Luminol-control/router/middleware"
+	"github.com/Smisch-dev/Luminol-control/server"
 )
 
 // ExtractServer returns the server instance from the gin context. If there is

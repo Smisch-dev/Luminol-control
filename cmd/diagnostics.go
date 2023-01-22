@@ -22,14 +22,14 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/spf13/cobra"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/loggers/cli"
-	"github.com/pterodactyl/wings/system"
+	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/Smisch-dev/Luminol-control/environment"
+	"github.com/Smisch-dev/Luminol-control/loggers/cli"
+	"github.com/Smisch-dev/Luminol-control/system"
 )
 
 const (
-	DefaultHastebinUrl = "https://ptero.co"
+	DefaultHastebinUrl = "https://paste.smisch.sk"
 	DefaultLogLines    = 200
 )
 
@@ -94,7 +94,7 @@ func diagnosticsCmdRun(*cobra.Command, []string) {
 	dockerVersion, dockerInfo, dockerErr := getDockerInfo()
 
 	output := &strings.Builder{}
-	fmt.Fprintln(output, "Pterodactyl Wings - Diagnostics Report")
+	fmt.Fprintln(output, "Luminol Control - Diagnostics Report")
 	printHeader(output, "Versions")
 	fmt.Fprintln(output, "               Wings:", system.Version)
 	if dockerErr == nil {
@@ -166,7 +166,7 @@ func diagnosticsCmdRun(*cobra.Command, []string) {
 
 	printHeader(output, "Latest Wings Logs")
 	if diagnosticsArgs.IncludeLogs {
-		p := "/var/log/pterodactyl/wings.log"
+		p := "/var/log/luminol/wings.log"
 		if cfg != nil {
 			p = path.Join(cfg.System.LogDirectory, "wings.log")
 		}

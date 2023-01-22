@@ -15,11 +15,11 @@ import (
 	"github.com/gammazero/workerpool"
 	"github.com/goccy/go-json"
 
-	"github.com/pterodactyl/wings/config"
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/environment/docker"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server/filesystem"
+	"github.com/Smisch-dev/Luminol-control/config"
+	"github.com/Smisch-dev/Luminol-control/environment"
+	"github.com/Smisch-dev/Luminol-control/environment/docker"
+	"github.com/Smisch-dev/Luminol-control/remote"
+	"github.com/Smisch-dev/Luminol-control/server/filesystem"
 )
 
 type Manager struct {

@@ -10,9 +10,9 @@ import (
 	"github.com/apex/log"
 	"github.com/docker/docker/client"
 
-	"github.com/pterodactyl/wings/environment"
-	"github.com/pterodactyl/wings/remote"
-	"github.com/pterodactyl/wings/server/backup"
+	"github.com/Smisch-dev/Luminol-control/environment"
+	"github.com/Smisch-dev/Luminol-control/remote"
+	"github.com/Smisch-dev/Luminol-control/server/backup"
 )
 
 // Notifies the panel of a backup's state and returns an error if one is encountered

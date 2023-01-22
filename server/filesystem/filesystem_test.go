@@ -13,7 +13,7 @@ import (
 
 	. "github.com/franela/goblin"
 
-	"github.com/pterodactyl/wings/config"
+	"github.com/Smisch-dev/Luminol-control/config"
 )
 
 func NewFs() (*Filesystem, *rootFs) {
@@ -25,7 +25,7 @@ func NewFs() (*Filesystem, *rootFs) {
 		},
 	})
 
-	tmpDir, err := os.MkdirTemp(os.TempDir(), "pterodactyl")
+	tmpDir, err := os.MkdirTemp(os.TempDir(), "luminol")
 	if err != nil {
 		panic(err)
 	}
